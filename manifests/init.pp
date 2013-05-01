@@ -4,7 +4,5 @@
 #
 #   include mediainfo
 class mediainfo {
-  package { 'mediainfo':
-    creates => "${boxen::config::homebrewdir}/bin/mediainfo"
-  }
+  package { 'mediainfo': }
 }
